@@ -23,7 +23,8 @@ class Anagram
         end
       end
     end
+    new_array
   end
-  new_array
+
 end
 
