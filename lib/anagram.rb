@@ -16,6 +16,5 @@ array_1 = ["o", "r", "a", "n", "g", "e"]
 array_2 = ["a", "g", "e"]
 
 
-puts array_1.sort
-puts array_2.sort
+
 
