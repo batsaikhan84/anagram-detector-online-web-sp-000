@@ -22,9 +22,8 @@ class Anagram
           e += 1
         end
       end
-      new_array
     end
   end
-
+  new_array
 end
 
