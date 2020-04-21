@@ -18,8 +18,8 @@ array_2 = ["a", "g", "e"]
 array_orange = "orange"
 array_age = "age"
 
-array_orange.split("")
-array_age.split("")
+array_orange.split("").sort
+array_age.split("").sort
 
 n = 0
 m = array_age.length - 1
