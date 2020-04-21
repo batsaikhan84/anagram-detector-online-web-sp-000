@@ -12,6 +12,7 @@ class Anagram
       array_word = @word.split("").sort
       if array_element[0, array_word.length - 1] == array_word[0, array_word.length - 1]
         new_array = []
+      end
     end
     new_array
   end
