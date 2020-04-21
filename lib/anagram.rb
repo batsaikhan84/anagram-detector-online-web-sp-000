@@ -7,32 +7,21 @@ class Anagram
   
   def match(array)
     array.each do |element|
-      element.split("")
-      @word.split("")
+      array_element = element.split("")
+      array_word = @word.split("")
+      w = 0
+      e = array_word - 1
+      while e < array_element.length
+        if array_element[w, e] == array_word[0, array_word.length - 1]
+          @word
+          break
+        else
+          w += 1
+          e += 1
+        end
+      end
+    end
       
-      
-  end
-end
-
-array_1 = ["o", "r", "a", "n", "g", "e"]
-
-array_2 = ["a", "g", "e"]
-
-array_orange = "orange"
-array_age = "age"
-
-array_orange.split("").sort
-array_age.split("").sort
-
-n = 0
-m = array_age.length - 1
-
-while m < array_orange.length
-  if array_orange[n, m] == array_age[0, array_age.length - 1]
-    true
-  else
-    n += 1
-    m += 1
   end
 end
 
