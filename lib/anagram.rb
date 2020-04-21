@@ -10,7 +10,7 @@ class Anagram
       array_element = element.split("").sort
       array_word = @word.split("").sort
       w = 0
-      e = array_word - 1
+      e = array_word.length - 1
       while e < array_element.length
         if array_element[w, e] == array_word[0, array_word.length - 1]
           @word
