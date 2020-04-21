@@ -14,7 +14,8 @@ class Anagram
       while e < array_element.length
         if array_element[w, e] == array_word[0, array_word.length - 1]
           @word
-          break
+          w += 1
+          e += 1
         else
           w += 1
           e += 1
